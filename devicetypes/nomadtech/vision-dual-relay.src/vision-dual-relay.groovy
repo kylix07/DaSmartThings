@@ -1,11 +1,11 @@
 /**
  *  
- *	Generic Dual Relay Device Type
+ *	Vision Dual Relay Device Type
  *  
- *	Author: Eric Maycock (erocm123)
- *	email: erocmail@gmail.com
- *	Date: 2015-10-29
- * 
+ *	Based on handler from: Eric Maycock (erocm123)
+ *	
+ *	
+ *  2016-12-21: Added Fingerprint ID
  *  2016-12-09: Removed unnecessary code (NO energy, NO power)
                 Renamed Monoprice to Vision
  *  2016-01-13: Fixed an error in the MultiChannelCmdEncap method that was stopping the instant status
@@ -35,6 +35,7 @@ command "on2"
 command "off2"
 
 //fingerprint deviceId: "0x1001", inClusters:"0x5E, 0x86, 0x72, 0x5A, 0x85, 0x59, 0x73, 0x25, 0x20, 0x27, 0x71, 0x2B, 0x2C, 0x75, 0x7A, 0x60, 0x32, 0x70"
+fingerprint mfr: "0109", prod: "2017", model: "1717"
 }
 
 simulator {
