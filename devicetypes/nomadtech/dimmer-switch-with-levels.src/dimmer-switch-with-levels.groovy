@@ -17,7 +17,7 @@
 	 * v1.1 - Bug fix showing speed in multiAttributeTile 
 	 * v1.0 - Initial release of device handler
 	 * 
-     *NomadTeck
+     *NomadTech
      * 20170105 Added Device fingerprint
   	*/
 	
