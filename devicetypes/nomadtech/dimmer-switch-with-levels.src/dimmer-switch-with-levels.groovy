@@ -109,7 +109,7 @@
 				input "highThreshold", "number", title: "High Button Light Value", range: "1..99"
 			}
 	        section ("Interval Selection") {
-	            input "stepper", "enum", title: "Up/Down Light Interval Value", defaultValue: "10", options: ["5","10","20"]
+	            input "stepper", "enum", title: "Up/Down Light Interval Value", defaultValue: "10", options: ["5","10","15"]
 	        }
 		}
 	}	
